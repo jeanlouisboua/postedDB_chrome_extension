@@ -1,0 +1,12 @@
+{
+    "name": "posted_db",
+    "description": "Middleware to link Postman Web client with indexedDB",
+    "version": "2.0.0",
+    "dependencies": {
+        "socketcluster-client": "^16.0.2",
+        "underscore": "^1.12.0"
+    },
+    "scripts": {
+        "build": "webpack --mode development --config webpack.config.js"
+    }
+}

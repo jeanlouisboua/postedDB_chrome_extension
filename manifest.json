@@ -1,0 +1,18 @@
+{
+    "name": "PostedDB",
+    "description": "Standalone indexedDB database reachable from postman requests and scripts ",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {"128": "icon_128.png"},
+    "options_page": "options.html",
+    "page_action": {
+        "default_icon": "icon.png"  
+    },
+    "background":{
+            "scripts": ["build/background.bundle.js"],
+            "persistent": true
+        }
+    ,
+    "permissions":["activeTab", "declarativeContent","storage"]
+  
+}
